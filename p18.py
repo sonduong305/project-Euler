@@ -42,6 +42,7 @@ else:
 
 for content in contents:
 
+    print(content.index.values)
     nums = []
     for x in content.split(" "):
         nums.append(int(x))
